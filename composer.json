@@ -1,0 +1,35 @@
+{
+  "name": "danharper/psr7-jsonx",
+  "description": "JSONx is JSON encoded as XML",
+  "keywords": ["jsonx", "json", "xml", "psr7", "psr-7", "ibm"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Dan Harper",
+      "email": "hello@dans.email"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "danharper/jsonx": "^0.1.0",
+    "psr/http-message": "^1.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^5.0",
+    "mockery/mockery": "^0.9.4",
+    "zendframework/zend-diactoros": "^1.1"
+  },
+  "suggest": {
+    "zendframework/zend-diactoros": "For.. (^1.1)"
+  },
+  "autoload": {
+    "psr-4": {
+      "danharper\\Psr7JSONx\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "danharper\\Psr7JSONx\\Tests\\": "tests"
+    }
+  }
+}
