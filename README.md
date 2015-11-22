@@ -8,7 +8,7 @@ An outgoing Response object with a `Content-Type: application/json` header with 
 
 It does this using IBM's standard for representing JSON as XML: [JSONx](https://tools.ietf.org/html/draft-rsalz-jsonx-00).
 
-This library is just a small wrapper around [`danharper/jsonx`](https://github.com/danharper/jsonx). And, if you're using Laravel, you can get full JSONx just by dropping in a middleware with [`danharper/laravel-jsonx`](https://github.com/danharper/laravel-json).
+This library is just a small wrapper around [`danharper/jsonx`](https://github.com/danharper/jsonx). And, if you're using Laravel, you can get full JSONx just by dropping in a middleware with [`danharper/laravel-jsonx`](https://github.com/danharper/LaravelJSONx).
 
 > **Notice** The library changes the body of HTTP Messages, and so it needs an implementation of `Psr\Http\Message\StreamInterface` to work. Or, I might be missing a better way?
 
