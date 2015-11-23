@@ -1,6 +1,6 @@
 # JSONx for PSR-7
 
-[![](https://api.travis-ci.org/danharper/Psr7JSONx.svg)](https://travis-ci.org/danharper/Psr7JSONx) [![Latest Stable Version](https://poser.pugx.org/danharper/psr7-jsonx/v/stable)](https://packagist.org/packages/danharper/psr7-jsonx) [![License](https://poser.pugx.org/danharper/psr7-jsonx/license)](https://packagist.org/packages/danharper/psr7-jsonx)
+[![](https://api.travis-ci.org/danharper/JSONx-for-PSR7.svg)](https://travis-ci.org/danharper/JSONx-for-PSR7) [![Latest Stable Version](https://poser.pugx.org/danharper/psr7-jsonx/v/stable)](https://packagist.org/packages/danharper/psr7-jsonx) [![License](https://poser.pugx.org/danharper/psr7-jsonx/license)](https://packagist.org/packages/danharper/psr7-jsonx)
 
 An incoming Request object with a `Content-Type: application/xml` header, will be converted to a JSON Request.
 
